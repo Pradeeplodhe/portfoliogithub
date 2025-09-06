@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio | @coding.stella</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./profile pic.jpg" alt="Richard hanrick" width="100" style="border-radius: 20px;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Prdaepp Lodhi</h1>
+
+          <p class="title" style="color: rgb(0, 0, 0); font-size: 15px; margin-bottom: 5px; font-weight: 900; background-color: blanchedalmond https://github.com/Pradeeplodhe/portfolio.git"> Full Stack Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">Pradeeplodhi948@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 7222947707</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">July,14,2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bhopal ,India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+         
+            <li class="social-item">
+            <a href="https://www.linkedin.com/in/pradeep-lodhi-090234334/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+               </li>
+
+
+
+
+        <li class="social-item">
+            <a href="https://github.com/Pradeeplodhe" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+               </li>
+
+
+ <li class="social-item">
+            <a href="https://leetcode.com/u/pradeeplodhe/" class="social-link">
+             Leetcode
+            </a>
+              
+
+
+            <li class="social-item">
+            <a href="https://www.instagram.com/pradeep_lodhi_rajput?igsh=bGU2OGdreDR0MXJi" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+              
+
+          </li>
+
+          
+           
+          </li>
+
+       
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar" style="background-image: linear-gradient( #1b0575 0%, #000000 0%, #091669 100%); color: black; border-color: rgb(251, 255, 0);">
+
+        <ul class="navbar-list" style="color: black;">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I’m Pradeep Lodhi, a passionate Computer Science student and aspiring full-stack developer.
+            </p>
+
+          <p>
+            I enjoy building intuitive web applications and exploring innovative solutions that make a real impact. Currently, I’m enhancing my skills in JavaScript, React, and modern web technologies, focusing on creating user-friendly and responsive applications."
+
+            </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Bachelor of Technology in CSE</h4>
+
+                <p class="service-item-text">
+                  Focusing on software development and modern web technologies
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Mern development</h4>
+
+                <p class="service-item-text">
+                 Front-end(React) + Back-End(Node.js + Express)  + Database(MangoDB)</p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Structure and Alorithms</h4>
+
+                <p class="service-item-text">
+                   I am Consistency practicing Data Structures and Algorithms using java
+                  </p>
+              </div>
+
+            </li>
+
+            <!-- <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li> -->
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Skills</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+          
+                 <h4 class="h4 testimonials-item-title" data-testimonials-title>  Java + DSA</h4>
+                  
+                 <div style="display: flex; justify-content: space-around;">   
+  <img id="java"   src="data:image/png;base64,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" alt="">
+         
+  <img  id="java" src="https://cdn3d.iconscout.com/3d/free/thumb/free-leetcode-11492972-9325307.png?f=webp" alt="">
+         </div> 
+                <div class="testimonials-text" data-testimonials-text>
+                  <!-- <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p> -->
+                 
+             <h3>    <!-- <img src="https://t3.ftcdn.net/jpg/16/27/74/82/240_F_1627748265_O5KuRJlCiBPLyui0t66URhAuPAj0vLuw.jpg" alt=""> -->
+              <ol>
+
+                
+
+              </ol>
+</h3> 
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+               
+
+                 
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Fronted technologies</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <!-- <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p> -->
+                  <!-- <img id ="java" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207" alt="">
+               <img id ="java" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207" alt="">
+               <img id ="java" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207" alt="">
+                -->
+               <div style="display: flex; justify-content: space-between;">
+                <img  id="java" src="https://icon2.cleanpng.com/20180810/ekz/11448a7a96ee808a3cdbaf0df9570976.webp" alt="">
+                 <img id ="java" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207" alt="">
+              
+                 <img  id="java" src="data:image/png;base64,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" alt="">
+                 <img id="java"  src="data:image/png;base64,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" alt="">
+                 </div>
+
+              </div>
+            </li>
+
+           
+
+            <!-- <li class="testimonials-item">
+
+
+              <div class="content-card" data-testimonials-item>
+
+              
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Backend Technology</h4>
+              
+                <div class="testimonials-text" data-testimonials-text>
+                    <div style="display: flex; justify-content: space-around; margin-bottom: 20px;">
+
+                <img id="java"  src="data:image/jpeg;base64,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" alt="">
+                 <img id="java" src="data:image/png;base64,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" alt="">
+                 <img id="java"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANsAAACUCAMAAAAtU6zLAAAAyVBMVEX///8zMzM+hj1on2NvpmBro15inFh0q2R2rmMvLy9hm1t3tl1vvE9rv0fFxcVIjEV5s2FCQkImJibd3d1zuFdQUFBVlE7X19dKSkpbmFbE2MNfX1/Y5de80rqyy7B0pm+ArX3u7u6hoaFXnUsfHx8REREAAABxulOPtoyLi4v2+fZZpkja6tc6OjptbW2UlJQrfit6enq2trbq8emhwZ6LuX1npFWjyJa52bSEu2/U6M6UxYSGxW/H38Cm05lYsytQpDtIlToaeBgTfbqsAAAL6klEQVR4nO2cfX+ayhLHBYwpNNG61lUQeVC0SKJG4aQ99/bcc07f/4u6+wCywMIiSRrxk99faSKwX2d3Z3ZmaKdzkVqoi+C9x/BGGk3Bent033sYb6LRWJVUb9e/RtthNknypEP/vUfy+qJskgq2m6ubmDEbppMWV0Z3YkN0q+l1bSoMG6a7qk0lw4Y3lSvydjk2CYwn7z2kV1OeTVKvxxl8sLVTH2zt1AdbO/XB1k59sLVTH2zt1AdbO/XB1k59sLVTH2zt1AfbebfcH16UwQ3M8EXPd5PkeDM2dzQqy667i+3KWx0aZzmDxz+eu1FzOre/m+5H5McmbG5/7JWU7NzjbkWKXsP4/ufq8funT7ddaM8b0vUPwAOr8QI/vQFb/+ABNHqwKdqmf5BAfBswa5B9D7//+QWx3XZ13THOvhovhyHAPADMjg3YRpuhRz/pjffZieketiC9m6qOz126P/78jNAQ262m6T3fPPPyYDE+PV9VZ5Pj9jy2xTAdPhr9kb2zB7L3Ur3dORPzPz+/fv4Ss3U1rdeD/lmW70899vkA5IYjYOuPV2p29ON49O5xuJIK8rzay+7xv3dfPyds3e6NhtSD89p0o906j1JQBdvksAL5j4PVBo++z/kTudtqWKte+fj9DqOldutqFM4xatGNFir3+TXZRgvJ412wmi7czpb7J0q3Ey674MfP+29fs2zUcD1YZ9m5i7EnNFo5m3ucrUouR6PvVN0ZSAJv99fPu7u7DFsXqafFdDcib9efgRpGK2Xr76psDjrVtwRgUz6y8Of9PWb7lmOjhkNwN70bq4JstKtJxmdzD4LLq9kkvKkc+esm/N/f95QtbzcG7mapmCXLzt3zF3pNtmCxLl1NddlK2gTCH98wGt9uhA3PSgTXW/q8icnfnWuzucex+HIxG24TyAcywV9/EjK+3RAQA3fz3LXydEF/V2sLKWPri6ZjbTbkDKdH9tbh9/sYrcB2S9hiw5FZiWXPM0OboDDoHLIcm7vZFpx7YzbcBMH4usD/9/6eYftWZIu3yhPcgHUHk3pDK2U71Ly8Jps6ZG5uKoOv9yV2o3MyNZxG2Z4iZmy7c1ZakW00rfnNNGODsMxuCVsvMyvhk8+wzc6ckDm2yVuzPQjsRuB6yV4pvz8bWJf5jAIbvKtmQ0zJVtm7gTXZyqOMWmxglR09y7Ye9yf7NT9yLrA9COYkw9aT67GtpqUngjps6/Fx47G3TtnAmuzzozEv+iyyxYarsJueLLlBLTbgoQNzf8uPfcVs3nqBRz9jvp2YDXfPJsHHcVzcY3NsS8S2FNntxCaL2dBsPFAvs5iqvO+2mo0Z/jG9nrKpmYAfHTzyT+ewwW8iu8VwAzEbkNLjlLufFmOWarbMecXdJ6OP2XLx8CT/+CzbDWFbCtkInC4L2dRZ5hg82UhVOYUCGxjTywPDiK9XUzaw6+TUz7nXLFuXsBHDVczJHoSJ2arZ1EPugB8cz7KbSo1m+poSmcwTCNtqkWdz88khlu2xu1wmK66aDcFBWcgGCo8fDSvyXHk2dYi/mtBXNEXRbAvPwI3XmO3TcknoHoRsuj4Q263INjmbzbR1hQj6r8GGJGSDcID1O9g0yqbh9OFrsD1U7SW9hAypPWy3Cdvg7v5y2dQmbOanB4omyw+COZmwyb+fzQMvZMNwdez29mxKwuYgtoMH1sixvIANb4BL/rn7t7N1TIf4AIVknibSDvu8BmyPXx6wCBsyHC9fctonm7Gd598k6votR9Oy9bEmbJ8Jm0wlmpOyLGIrxCWd41bKfaQqLvHil+RCK1dgacy2jNkeBHuJmE2SsoUHd5M3myBW9mb8skxjNjlRpe8mYckACtiAytT72EJhPTZ0/YxXMGjKtjyxLUV2E7PhkzEt5Qb9KfdsLDqbgvWuaLqmbHKqBxGbDAfic7e3PbrBZNf03C15q8Lbm43Y/vlnwLAthWyi9Uaf4e02oCwXVSNfonrj3LJrxvavzOpBxCbXYcMpk7LsXL0cHlq2mdw+n20kYMugyctXYitX3fwkkA5MmR7/Zl20m1rF9jVrNll+FrH9ttyrCqS0vwTDeoWWhOCQnR4ZtvD2Kcc2qPYBsvyLLeQcREXB4oiHbKqq+rtRV1Ky7HAnDsc3jLJlpAxbx9DzcM+VdnuSM/0mk/L+gZLhepnX8/lugvn4etYnnyfNChwF/QNzhyxbx/SfcnRVbE+KlY2F6pUGT1oNc0OcbNTqbweopBq6KW2RcY/bU7Yrx9YJDPtX1nClsfLTU6FsWq+km4xzVRxi0C/xg6fxekNk6qoGF3efVA/ybOj28yeWblByxpF/ccvd6NbCUjx98Go84Q0x6KvV344KhhVkWKMddQZFNlw+ZQ0HeXNyMLBLO0yELRR0gMey6zsLtbp+qgrYcHsLrhypU14TjekM0mX3XMgrw4Fd2W5Y3fpCyDaV02rDiarPYeu4ixlQeXbDMpzTpgLzbFCJBB1d7nFW0a4Atpw+z6zSrs+ivK2YDfeDbdfbkseElv4rNRzDBmFUo4tytBiWRZC1/vcLtz/zuHQA1P0/a0b78mkfRrHpIMPWWzpl/UA5TQ68wTEOWCB+E84q9nAvVuhQuO6J7flmLr4s0aToigHY1x+au899OyoAJX1aTWQo2HaDT7EL6PI61AJzbpW0VB7HmfAVbA/ntYOP2E2JLZO+ioJIQXA97N+eb7mdhWakQx36/Jnq7senZQeAuG2zoOOJzhPvQGcrjOCT3EVo/iPvrxbNjZ4qZHlN4mOpWpbXESjuEgWrl729USbT/yU//8GbdgFOHSqKjstIms33DCiMWquSBxbN3k7Avkpdr5t9MTUUmD63AztO+UJrDgldyQsE7lFan7nQ8jd4pc2xtkIHYiCNxJW+jqcmdM59geAiFUZ4JqbJbJOWbiE/gm6TwrlNZ2F6gAsMYjtdafrezoXIdHRSW8ke4IIEuMl7OxeiMCqbfmGk0XpSS5ddQD2axj/mhD5pK9Bf8LrcuykwFLI72qVxpWETl5edr0F48f83HHJ0ZL+wq8wSWKRErafv7YRzy7JqHh/eS2FkaxXhVfo5SyH+If5caM1N07QueocJbeqfxe9RBSGxL12Twdw0IisKi1mxC5JNQsd6b4gFhg2xOwixtTtzK3Q6xgVvnibeRESZklRoP0Vwc8Jm2I7VMS54Uhq6olW9PcW7QLcwJNpLOjaamm81spcLs7E7f4CU/ByaxhzJMNnd0NQIW8e0TLMzN6wL3ijzbJHvx67AjBxb03E7rGIzp6GELTAiw7AueivJs6GY0sbTDPuzuC8Jb/zK6ZyTsGGzmpftvAtsyEoYIyIBMulh1mk0FsOlbBevEja8fWq2bxlmaM59G0ckcVGu/Ww+spV92gLRSQDB0X+2nw2HKoznCuwTUevZAszGeq451HSHTMrWs3XIaY35deA4TnQlbPgwqqOjQRjkd/n2s5nEuelQs+0IBSaMH2s/W2euxG8n4NBEQ4BF333xKmNDIZcGT5EJ8uC2dS3+rYOPooZv6/hNFlr3uBYfkCowDcvXyPwckLi49WxBGGbC4BDHKRSp9WyRYtvZQyeC00h3XuvZkHuDWQALfc7BP7SeDZEodsZro9/TQKX1bCGMXwNKhGFp8Nx6NhpzQRRzIZlmhEs52rXEyqFDYy6oEw9HDt5xGqX1bLhkpZ/yJaRIfDU5Bey0I0eDOpXiG0lCq2VsbGqYiUuQAzcsK4pQnNzOc4AJ0SbBuOl8zJVX6KNleEb713sqwDsgTCtv1WzhXMkkiS5cc1zsOBVEQztrxowCgzafXHKePCuL9CHoDu6yCCLss0vy4GYU9zG0Bu00Zs2JIh+bJeJ+Ki6vlvXmXaxMmzY60XM2t6JGFpoC7XpFyIvS3I7fuNa41TiTZE/aNR1TBRbJ+tsOZ383/bjd8JILUpUKTMMwOIspJJtNGnS1WyZDEcydun0MLZDhK2mza9xkqLdzoeVl0x4hYrrQJ11qpR6vbQpIP56iIz9mQeKrr6PtlSqeh3bSN3kV0zERjRuJ9eyLbkRoJNq3jF9+eO+RvIVw+Ph7yf4P7yCtG7i+8EYAAAAASUVORK5CYII=" alt="">
+                
+              </div>
+                 
+               
+                </div>
+
+              </div>
+            </li> -->
+
+       <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+               
+
+                 
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Tools</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <!-- <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p> -->
+                  <!-- <img id ="java" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207" alt="">
+               <img id ="java" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207" alt="">
+               <img id ="java" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207" alt="">
+                -->
+               <div style="display: flex; justify-content: space-between; gap: 13px;">
+                <img  id="java" src="https://toppng.com/uploads/preview/github-logo-11609362429jyqzrkf6k1.png"/>
+                  <img  id="java" src="https://w7.pngwing.com/pngs/628/224/png-transparent-bootstrap-plain-wordmark-logo-icon.png"/>
+                  <img  id="java" src="https://tse4.mm.bing.net/th/id/OIP.1lpQTd6Iv477jRFHk08MEQHaHa?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3"/>
+                <img  id="java" src="https://tse3.mm.bing.net/th/id/OIP.vz7_8tUPWjssC87owmj88gHaHa?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3"/>
+                <img  id="java" src="https://logowik.com/content/uploads/images/vercel1868.jpg"/>
+              
+              </div>
+
+              </div>
+            </li>
+
+
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Other Skill</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+
+            <!-- <li class="clients-item">
+              <a href="#">
+                <img src="https://cdn0.iconfinder.com/data/icons/project-management-2-12/65/171-1024.png" alt="client logo" style="height: 100px;">
+                <h4 style="color: aliceblue;">mutlitasking</h4>
+              </a>
+            </li> -->
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://c8.alamy.com/comp/2WHBGCE/soft-skills-stamp-soft-skills-round-sign-label-on-transparent-background-2WHBGCE.jpg" alt="client logo" style="border-radius: 10px;">
+              </a>
+            </li>
+
+            
+
+            
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://en-media.thebetterindia.com/uploads/2017/02/C2XdgDMWEAAzXh6.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item" 
+              <a href="#">
+                <img src="https://www.bing.com/th/id/OIP.D5kNhXwRkp6pBehTjDEVnAHaEk?w=263&h=211&c=8&rs=1&qlt=90&o=6&cb=thwsc4&dpr=1.3&pid=3.1&rm=2" alt="client logo" style="height: 200px;">>
+              </a>
+            </li>
+
+            <!-- <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ragiv Gandhi Prodhyogik Vishvavidhiyalay(RGPV)</h4>
+
+              <span>2023 — current </span>
+  <span>CGPA 8.05</span>
+              <p class="timeline-text">
+               I am pursuing a Bachelor’s degree in Computer Science and Engineering from SIRT, affiliated with RGPV. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Higher-Secondary-Education (12th)</h4>
+
+              <span>2022-2023</span>
+             <span>Percentage : 79.8 %</span>
+           
+              <p class="timeline-text">
+               I have completed my 12th standard  fron Goverment Higher Secondary School Deewanganj in the Science stream with a focus on Mathematics.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Secondary-Education(10th)</h4>
+
+              <span>2020-2021</span>
+              <span>Percentage : 76 %</span>
+           
+              <p class="timeline-text">
+                 I have completed my 10th standard  fron Goverment Higher Secondary School Deewanganj .
+            
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Digital Hospital app</h4>
+
+              <span>Ongoing</span>
+               <span>TechStack :  Mern Stack</span>
+               <span style="font-weight: 800; color: black;">Features : -</span>
+               
+                <ul class="timeline-text"  >
+                  <li>  • Patient and Doctor Management</li>
+                  <li>• Emergency Alerts to Patient’s Family</li>
+                  <li>• FIR Record Maintenance for Critical Cases</li>
+                 <li>• Nearby Hospital Database for Quick Referral  </li>
+                 
+                  <li>• Appointment Booking and Scheduling  </li>
+                  <li> • Room and Bed Allocation  </li>
+                    <li>• Secure Login with Role-Based Access
+                  </li>
+                </ul>
+        
+      
+               
+              
+        
+              <div>
+              <div style="display: flex; color: aliceblue; ">
+                <a href="" style="color: aliceblue; margin-right: 20px;"> Live link 🔗</a>
+                <a href="" style="color: aliceblue;">Git-Hub -Link🔗</a>
+              </div>
+              
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Netflix Clone</h4>
+
+              <span>2025</span>
+              <span>TechStack  :  HTML,CSS,JavaScript,React-js</span>
+
+             <span style="font-weight: 800; color: black;">Features : -</span>
+               
+                <ul class="timeline-text"  >
+                  <li> • Branded Logo and Clean UI Design </li>
+                  <li>• Movie Search Functionality using AP</li>
+                  <li>• User-Friendly and Responsive Interface </li>
+                 <li>• Nearby Hospital Database for Quick Referral  </li>
+                 
+                  <li>•  Search and Filter for Movies/Shows  </li>
+                  <li>  • User Authentication with Signup and Login    </li>
+                  
+                </ul>
+
+              
+               <div>
+              <div style="display: flex; color: aliceblue; ">
+                <a href="http://resonant-medovik-69fb29.netlify.app" style="color: aliceblue; margin-right: 20px;"> Live link 🔗</a>
+                <a href="https://github.com/Pradeeplodhe/E-Commerce-clone-Page" style="color: aliceblue;">Git-Hub -Link🔗</a>
+              </div>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">E-Commerce</h4>
+
+              <span>2025</span>
+               <span>TechStack  :  HTML,CSS,JavaScript</span>
+
+             <span style="font-weight: 800; color: black;">Features : -</span>
+               
+                <ul class="timeline-text"  >
+• Product Listing with Categories and Filters  
+  <li> • Product Search and Sorting Options  </li>
+
+  <li>• Add to Cart and Wishlist Functionality   </li>
+    <li>  • Secure Checkout and Payment Integration </li>
+                 
+                  <li> • Responsive and User-Friendly Interface  </li>
+                
+                  
+                </ul>
+              
+              <div>
+              <div style="display: flex; color: aliceblue; ">
+                <a href="http://resonant-medovik-69fb29.netlify.app" style="color: aliceblue; margin-right: 20px;"> Live link 🔗</a>
+                <a href="https://github.com/Pradeeplodhe/E-Commerce-clone-Page" style="color: aliceblue;">Git-Hub -Link🔗</a>
+              </div>
+            </li>
+
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">API Based web Page</h4>
+
+              <span>2025</span>
+                <span>TechStack  :  HTML,CSS,JavaScript,React-js</span>
+
+             <span style="font-weight: 800; color: black;">Features : -</span>
+               
+                <ul class="timeline-text"  >
+                  
+              
+ <li>  •Data Fetching and Rendering from External API  </li>
+<li>• Dynamic Search Functionality for Users   </li>
+<li>• Responsive and User-Friendly Interface   </li>
+<li>• Real-Time Data Updates from API   </li>
+<li>• Clean and Minimal UI Design   </li>
+<li>• ptimized Performance with Async/Await </li>
+</ul>
+                <div>
+              <div style="display: flex; color: aliceblue; ">
+                <a href="https://jocular-torrone-b6eb77pokeamapp.netlify.app" style="color: aliceblue; margin-right: 20px;"> Live link 🔗</a>
+                <a href="https://github.com/Pradeeplodhe/Pokemana-web-page" style="color: aliceblue;">Git-Hub -Link🔗</a>
+              </div>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MackDonald coffe app & Todo List app</h4>
+
+              <span>2025</span>
+              <span>TechStack  :  HTML,CSS,JavaScripts</span>
+
+             <span style="font-weight: 800; color: black;">Features : -</span>
+               
+                <ul class="timeline-text"  >
+                  <li>  • Task Creation and Management  </li>
+                  <li>• Data Storage using Browser Local Storage  </li>
+                  <li>• Delete Task Functionality </li>
+                 <li> • Mark Tasks as Favorite   </li>
+                 
+                  <li>• Clean and Responsive User Interfac </li>
+                  <li>     </li>
+                  
+                </ul>
+               
+
+               <div>
+              <div style="display: flex; color: aliceblue; ">
+                <a href="http://todolistappbypradeep.netlify.app" style="color: aliceblue; margin-right: 20px;"> Live link 🔗</a>
+                <a href="https://github.com/Pradeeplodhe/TodoList.git" style="color: aliceblue;">Git-Hub -Link🔗</a>
+              </div>
+
+              <div style="display: flex; color: aliceblue; ">
+                <a href="http://cheerful-parfait-816d17.netlify.app" style="color: aliceblue; margin-right: 20px;"> Live link 🔗</a>
+                <a href="https://github.com/Pradeeplodhe/Coffe-Order-ewb-page" style="color: aliceblue;">Git-Hub -Link🔗</a>
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Static Web page</h4>
+
+              <span>2025</span>
+             <span>TechStack  :  HTML,CSS</span>
+
+             
+             <span style="font-weight: 800; color: black;">Features : -</span>
+               
+                <ul class="timeline-text"  >
+                  <li> • Built using pure HTML and CSS  </li>
+                  <li>• Sections for Header, Content, and Footer  
+</li>
+                  <li>• Simple and User-Friendly Navigation  </li>
+              
+                </ul>
+             <div>
+              <div style="display: flex; color: aliceblue; ">
+                <a href="http://monumental-hotteok-65d22f.netlify.app" style="color: aliceblue; margin-right: 20px;"> Live link 🔗</a>
+                <a href="https://github.com/Pradeeplodhe/Static-CoinRepublic--web-page" style="color: aliceblue;">Git-Hub -Link🔗</a>
+              </div>
+            </li>
+
+
+          </ol>
+
+        </section>
+
+      
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>WebDevelopment Project</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Certification</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Achivment</button>
+            </li>
+
+          </ul> -->
+ <div class="filter-select-box"> 
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+           
+
+              <li class="select-item">
+                <button data-select-item>WebDevelopment project</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Certification</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Achivment</button>
+              </li>
+
+            </ul> 
+
+          </div> 
+        <center>  <h3 id="heading" style="color: aliceblue; margin-bottom: 20px;" >Project</h3>
+</center>
+          <ul class="project-list">
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" >
+                 <ion-icon name="eye-outline"></ion-icon>
+
+
+                  </div>
+                <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmV0ZmxpeHxlbnwwfHwwfHx8MA%3D%3D" alt="Project 1">
+ 
+                   </figure>
+
+
+                   <!-- <a href="https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/">hello</a>
+              -->
+                   <h3 class="project-title">Netflix</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="http://resonant-medovik-69fb29.netlify.app">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" >
+                 <ion-icon name="eye-outline"></ion-icon>
+
+
+                  </div>
+                <img src="https://tse2.mm.bing.net/th/id/OIP.tNzhvGRwyJqirlfAJxWC_wHaEk?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                   </figure>
+
+
+                   <!-- <a href="https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/">hello</a>
+              -->
+                   <h3 class="project-title">e-commerce</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+           
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://jocular-torrone-b6eb77pokeamapp.netlify.app">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" >
+                 <ion-icon name="eye-outline"></ion-icon>
+
+
+                  </div>
+                <img src="https://cdn.pixabay.com/photo/2023/05/12/10/47/ai-generated-7988262_1280.jpg" alt="">
+                   </figure>
+
+
+                   <!-- <a href="https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/">hello</a>
+              -->
+                   <h3 class="project-title">API-based pokeman web page</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+             <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="http://cheerful-parfait-816d17.netlify.app">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" >
+                 <ion-icon name="eye-outline"></ion-icon>
+
+
+                  </div>
+                  <img src="https://static.vecteezy.com/system/resources/thumbnails/023/010/432/small_2x/the-side-angle-view-of-a-cup-of-coffee-on-the-table-with-ai-generated-free-photo.jpg" alt="">
+                   </figure>
+
+
+                   <!-- <a href="https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/">hello</a>
+              -->
+                   <h3 class="project-title">Coffe-Order-Page</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="http://todolistappbypradeep.netlify.app">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" >
+                 <ion-icon name="eye-outline"></ion-icon>
+
+
+                  </div>
+                <img src="https://tse3.mm.bing.net/th/id/OIP.DbIQZkS5nMzaQ_O5OsnadgHaEK?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3" alt=""> </figure>
+
+
+                   <!-- <a href="https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/">hello</a>
+              -->
+                   <h3 class="project-title">Todo-list</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+
+           <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="http://monumental-hotteok-65d22f.netlify.app">
+                <figure class="project-img">
+                  <div class="project-item-icon-box" >
+                 <ion-icon name="eye-outline"></ion-icon>
+
+
+                  </div>
+                           <img src="https://tse4.mm.bing.net/th/id/OIP.acGPQ-I10Kk8kae3ncYQFQHaE8?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">          </figure>
+
+
+                   <!-- <a href="https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/">hello</a>
+              -->
+                   <h3 class="project-title">Static-web-Page</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          
+
+
+           
+        
+                 
+           
+           
+
+            
+        </ul>
+
+
+
+
+              <center>  <h3 id="heading" style="color: aliceblue; margin-bottom: 20px;" >Certificate</h3>
+</center>
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.linkedin.com/posts/pradeep-lodhi-090234334_java-datastructures-dsa-activity-7276482782766219264-RGl_?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAFQKJmwBsqdw3iLvlQsXD77vWqCFD2vlLQ0&utm_campaign=copy_link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" >
+                 <ion-icon name="eye-outline"></ion-icon>
+
+
+                  </div>
+                <img src="https://thfvnext.bing.com/th/id/OIP.f9nDzG8bSuRY5zj9R5MZCQHaEK?o=7&cb=thfvnextrm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Project 1">
+ 
+                   </figure>
+
+
+                   <!-- <a href="https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/">hello</a>
+              -->
+                   <h3 class="project-title">Data Structure & Algorithms java</h3>
+
+                <p class="project-category">Apna collage</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+
+
+              <a href="https://www.linkedin.com/posts/pradeep-lodhi-090234334_hello-everyone-im-excited-to-share-my-experience-activity-7263124947726692352-wztd?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAFQKJmwBsqdw3iLvlQsXD77vWqCFD2vlLQ0&utm_campaign=copy_link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" >
+                 <ion-icon name="eye-outline"></ion-icon>
+
+
+                  </div>
+                <img src="https://c8.alamy.com/comp/2DAF0XX/c-inscription-against-laptop-and-code-background-learn-c-programming-language-computer-courses-training-2DAF0XX.jpg" alt="Project 1">
+ 
+                   </figure>
+
+
+                   <!-- <a href="https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/">hello</a>
+              -->
+                   <h3 class="project-title">c++</h3>
+
+                <p class="project-category">Basic</p>
+
+              </a>
+            
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.linkedin.com/posts/pradeep-lodhi-090234334_internship-webdevelopment-learning-activity-7369648256382865411-3tJ2?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAFQKJmwBsqdw3iLvlQsXD77vWqCFD2vlLQ0&utm_campaign=copy_link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" >
+                 <ion-icon name="eye-outline"></ion-icon>
+
+
+                  </div>
+                <img src="https://static.vecteezy.com/system/resources/previews/020/821/453/non_2x/internship-concept-business-team-working-on-digital-tablet-and-financial-data-with-internship-icon-on-virtual-screen-photo.jpg" alt="Project 1">
+ 
+                   </figure>
+
+
+                   <!-- <a href="https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/">hello</a>
+              -->
+                   <h3 class="project-title">4 week Internship</h3>
+
+                <p class="project-category">At internpe</p>
+
+              </a>
+            </li>
+            
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.linkedin.com/posts/pradeep-lodhi-090234334_leetcode-competitiveprogramming-problemsolving-activity-7357716473303162880-Jz2N?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAFQKJmwBsqdw3iLvlQsXD77vWqCFD2vlLQ0&utm_campaign=copy_link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" >
+                 <ion-icon name="eye-outline"></ion-icon>
+
+
+                  </div>
+                <img src="https://static.vecteezy.com/system/resources/previews/002/099/443/non_2x/programming-code-coding-or-hacker-background-programming-code-icon-made-with-binary-code-digital-binary-data-and-streaming-digital-code-vector.jpg" alt="Project 1">
+ 
+                   </figure>
+
+
+                   <!-- <a href="https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/">hello</a>
+              -->
+                   <h3 class="project-title">2nd Position at coding compition</h3>
+
+                <p class="project-category">on Leetcode</p>
+
+              </a>
+            </li>
+            
+         
+            
+
+          
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
